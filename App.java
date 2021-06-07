@@ -9,13 +9,19 @@ public class App {
 		ma2.startsWork();
 		ma3.startsWork();
 		
+		System.out.println("--------------------------------");
+
 		ma1.hasLunch();
 		ma2.hasLunch();
 		ma3.hasLunch();
 		
+		System.out.println("--------------------------------");
+
 		ma1.doYourWork("#manufacturing");
 		ma2.doYourWork("#accounting");			
 		ma3.doYourWork("#advertising");	
+
+		System.out.println("--------------------------------");
 
 		ma1.tellAboutYou();
 		ma2.tellAboutYou();
