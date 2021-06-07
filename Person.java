@@ -1,15 +1,15 @@
 public class Person {
 
-    protected String name;
-	protected String firstName;
+    protected static String name;
+	protected static String firstName;
 	private int birthYear;
    
    
    
-    public Person(String name, String firstName, String role) {
+    public Person(String name, String firstName, int bithrYear) {
         this.name = name;
         this.firstName = firstName;
-        this.birthYear = birthYear;
+        this.birthYear = bithrYear;
     }
 	/**
 	 * Getter
@@ -63,6 +63,14 @@ public class Person {
 	public void setBirthYear(int birthYear) {
 		this.birthYear = birthYear;
 	}
+	public void doYourWork(String string) {
+	}
+	public void hasLunch() {
+	}
+	public void startsWork() {
+	}
     
+    protected void tellAboutYou(){
+		System.out.println(firstName + name + "and I´m starting my work!");
     
 }

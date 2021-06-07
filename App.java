@@ -16,6 +16,11 @@ public class App {
 		ma1.doYourWork("#manufacturing");
 		ma2.doYourWork("#accounting");			
 		ma3.doYourWork("#advertising");	
+
+		ma1.tellAboutYou();
+		ma2.tellAboutYou();
+		ma3.tellAboutYou();
+
 		
 		System.out.println(ma1.getBirthYear());				
 		ma2.setName("Nossow");

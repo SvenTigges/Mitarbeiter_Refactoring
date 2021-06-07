@@ -20,5 +20,6 @@ public class MA_Advertising extends Mitarbeiter{
 		default:
 			this.doSomething();
 			break;
-    	}	}
+    	}
+	}
 }

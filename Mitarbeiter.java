@@ -1,22 +1,21 @@
-import java.security.Permission;
-
-
 public class Mitarbeiter extends Person {
 	
 
 
+	private static int bithrYear;
 	public String workID;
 	public String department;
 	public String role;
-
+	public static int hiredYear; 
 		
-	public Mitarbeiter(String workID, String department, String role) {
-		super(workID, department, role); 
+
+
+	public Mitarbeiter(String role, String workID, String department, int hiredYear) {
+		super(name, firstName, bithrYear);
 		this.workID = workID;
 		this.department = department;
 		this.role = role;
-		
-
+		this.hiredYear = hiredYear;
 	}
 
 	/**
@@ -63,6 +62,7 @@ public class Mitarbeiter extends Person {
 	protected void doSomething() {
 		System.out.println("Hi, I'm doing something.");		
 	}
-
+	
+	}
 
 }
