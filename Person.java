@@ -1,15 +1,18 @@
+
 public class Person {
 
-    protected static String name;
-	protected static String firstName;
-	private int birthYear;
-   
+    protected  String name;
+	protected  String firstName;
+	protected  int birthYear;
+    
+     
    
    
     public Person(String name, String firstName, int bithrYear) {
         this.name = name;
         this.firstName = firstName;
         this.birthYear = bithrYear;
+       
     }
 	/**
 	 * Getter
@@ -55,8 +58,8 @@ public class Person {
 		return birthYear;
 	}
 	
-	
-	/**
+    
+    /**
 	 * Setter
 	 * @param birthYear // Geburtsjahr MA
 	 */
@@ -69,8 +72,5 @@ public class Person {
 	}
 	public void startsWork() {
 	}
-    
-    protected void tellAboutYou(){
-		System.out.println(firstName + name + "and I´m starting my work!");
     
 }

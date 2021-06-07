@@ -1,27 +1,18 @@
-public class Ma_Accounting extends Mitarbeiter {
-
-    public Ma_Accounting(String name, String firstName, int i, String role, String workID, String department, int hiredYear) {
-        super(role, workID, department, hiredYear);
-       
+public class MA_Accounting extends Mitarbeiter{
+    
+public MA_Accounting(String name, String firstName, int bithrYear, String workID, String department, String role,
+            int hiredYear) {
+        super(name, firstName, bithrYear, workID, department, role, hiredYear);
     }
 
-
-
-	public void doYourWork(String flag) {
-		
-		switch (flag) {
-		case "#manufacturing":
-			this.assembleCar();
-			break;
-		case "#accounting":
-			this.checkAccount();
-			break;			
-		case "#advertising":
-			this.postingOnSocialMedia();
-			break;
-		default:
-			this.doSomething();
-			break;
-        }
-    }    
+public void doYourWork(String flag) {
+    switch (flag) {
+    case "#accounting":
+        this.checkAccount();
+        break;			
+    default:
+        this.doSomething();
+        break;
+    }
+}    
 }

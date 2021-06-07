@@ -1,19 +1,13 @@
 public class MA_Advertising extends Mitarbeiter{
 
-    public MA_Advertising(String name, String firstName, String bithrYear, String role, String workID, String department, int hiredYear) {
-        super(role, workID, department, hiredYear);
-        
-    }
+    public MA_Advertising(String name, String firstName, int bithrYear, String workID, String department, String role,
+			int hiredYear) {
+		super(name, firstName, bithrYear, workID, department, role, hiredYear);
+	}
 
-    public void doYourWork(String flag) {
+	public void doYourWork(String flag) {
 		
-		switch (flag) {
-		case "#manufacturing":
-			this.assembleCar();
-			break;
-		case "#accounting":
-			this.checkAccount();
-			break;			
+		switch (flag) {		
 		case "#advertising":
 			this.postingOnSocialMedia();
 			break;
