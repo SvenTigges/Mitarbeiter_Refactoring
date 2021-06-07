@@ -1,9 +1,9 @@
 public class App {
     public static void main(String[] args) {
 		
-		MA_Production ma1 = new MA_Production("Müller", "Max", "ID001");
-		Ma_Accounting ma2 = new Ma_Accounting("Popow", "Oleg", "ID002");
-		MA_Advertising ma3 = new MA_Advertising("Martinelli", "Silvia", "ID003");
+		Person ma1 = new MA_Production("Müller", "Max", 1965, "ID001" , "production", "worker", 2018);
+		Person ma2 = new Ma_Accounting("Popow", "Oleg", 1974, "ID002" , "accounting", "accountant", 2012);
+		Person ma3 = new Ma_Accounting("Martinelli", "Silvia", 1985, "ID003" , "advertising", "consultant", 2020);
 		
 		ma1.startsWork();
 		ma2.startsWork();

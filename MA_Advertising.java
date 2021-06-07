@@ -1,7 +1,7 @@
 public class MA_Advertising extends Mitarbeiter{
 
-    public MA_Advertising(String workID, String department, String role) {
-        super(workID, department, role);
+    public MA_Advertising(String name, String firstName, String bithrYear, String role, String workID, String department, int hiredYear) {
+        super(role, workID, department, hiredYear);
         
     }
 
