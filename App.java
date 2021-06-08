@@ -3,7 +3,7 @@ public class App {
 		
 		MA_Production ma1 = new MA_Production("Müller", "Max", 1965, "ID001" , "production", "worker", 2018);
 		MA_Accounting ma2 = new MA_Accounting("Popow", "Oleg", 1974, "ID002" , "accounting", "accountant", 2012);
-		MA_Advertising ma3 = new MA_Advertising("Martinelli", "Silvia", 1985, "ID003" , "advertising", "consultant", 2020);
+		MA_Advertising ma3 = new MA_Advertising("Martinelli", "Silvia", 1985, "ID003" , "advertising", "consultant", 2019);
 		
 		ma1.startsWork();
 		ma2.startsWork();

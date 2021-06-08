@@ -58,7 +58,6 @@ public class Person {
 		return birthYear;
 	}
 	
-    
     /**
 	 * Setter
 	 * @param birthYear // Geburtsjahr MA
@@ -73,4 +72,5 @@ public class Person {
 	public void startsWork() {
 	}
     
+
 }
