@@ -47,8 +47,8 @@ public class Mitarbeiter extends Person {
 
 
 	public void tellAboutYou(){
-        System.out.println("My name is " + firstName + " " +  name +
-         " I was born in  " + birthYear + " and I work in this company for about " + Rechner.rechner(hiredYear) + " years");
+        System.out.println("My name is " + getFirstName() + " " +  getFirstName() +
+         " I was born in  " + getBirthYear() + " and I work in this company for about " + Rechner.rechner(hiredYear) + " years");
     
     }
 }
