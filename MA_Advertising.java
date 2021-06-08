@@ -9,11 +9,14 @@ public class MA_Advertising extends Mitarbeiter{
 		
 		switch (flag) {		
 		case "#advertising":
-			this.postingOnSocialMedia();
+			postingOnSocialMedia();
 			break;
 		default:
 			this.doSomething();
 			break;
     	}
+	}
+	protected void postingOnSocialMedia() {
+		System.out.println("Hi, I'm " + super.getFirstName() + " " + super.getName() + " and I'm posting a phothograph on IG!");		
 	}
 }

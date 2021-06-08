@@ -30,41 +30,21 @@ public class Mitarbeiter extends Person {
 		System.out.println("Hi, I'm " + getFirstName() + " " + getName() + " and I'm starting my work!");		
 	}
 	
-	
-	/**
-	 *  Ausgabe --> accounting
-	 */
-	protected void checkAccount() {
-		System.out.println("Hi, I'm " + super.getFirstName() + " " + super.getName() + " and I'm checking a customer's account!");		
-	}
-	
-	/**
-	 *  Ausgabe --> production
-	 */
-	public void assembleCar() {
-		System.out.println("Hi, I'm " +super.getFirstName() + " " + super.getName() + " and I'm assembling a car!");		
-	}
-
-	/**
-	 *  Ausgabe --> advertising
-	 */
-	
-	protected void postingOnSocialMedia() {
-		System.out.println("Hi, I'm " + super.getFirstName() + " " + super.getName() + " and I'm posting a phothograph on IG!");		
-	}
-
 	/**
 	 *  Ausgabe --> Default
 	 */
 	protected void doSomething() {
 		System.out.println("Hi, I'm doing something.");		
 	}
+
+
 	public int getHiredYear() {
         return hiredYear;
     }
     public void setHiredYear(int hiredYear) {
         this.hiredYear = hiredYear;
     }
+
 
 	public void tellAboutYou(){
         System.out.println("My name is " + firstName + " " +  name +

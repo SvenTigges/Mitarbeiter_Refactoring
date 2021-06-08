@@ -9,11 +9,14 @@ public class MA_Production extends Mitarbeiter{
 		
 		switch (flag) {
 		case "#manufacturing":
-			this.assembleCar();
+			assembleCar();
 			break;
 		default:
 			this.doSomething();
 			break;
 		}
-    }    
+    }  
+	public void assembleCar() {
+		System.out.println("Hi, I'm " +super.getFirstName() + " " + super.getName() + " and I'm assembling a car!");		
+	}  
 }

@@ -8,11 +8,14 @@ public MA_Accounting(String name, String firstName, int bithrYear, String workID
 public void doYourWork(String flag) {
     switch (flag) {
     case "#accounting":
-        this.checkAccount();
+        checkAccount();
         break;			
     default:
         this.doSomething();
         break;
     }
-}    
+}   
+protected void checkAccount() {
+    System.out.println("Hi, I'm " + super.getFirstName() + " " + super.getName() + " and I'm checking a customer's account!");		
+}
 }
